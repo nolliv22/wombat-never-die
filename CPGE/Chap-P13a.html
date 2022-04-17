@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+  
+<!-- Mirrored from www.tiwombat.com/CPGE/Chap-P13a.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Sep 2021 00:12:49 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Generator" content="iWeb 3.0.4" />
+    <meta name="iWeb-Build" content="local-build-20210403" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>Chapitre 13 - Moment cinétique et forces centrales newtoniennes</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="Chap-P13a_files/Chap-P13a.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Chap-P13a_files/Chap-P13aIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="Chap-P13a_files/Chap-P13a.js"></script>
+  </head>
+  <body style="background: rgb(101, 101, 101); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+<style>
+.main {
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+}
+
+.navbar ul,li { 
+  list-style-type: none;
+  list-style-position:inside;
+  margin:0;
+  padding:0;
+}
+
+.navbar{
+  display: inline-block;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: gray;
+  border-radius: 10px;
+  list-style-position: inside;
+  text-align: center;
+}
+
+.navbar li{
+  float: left;
+  display:inline;
+}
+
+.navbar li a {
+  display:inline-block;
+  color: white;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+  
+}
+
+.navbar li a:hover {
+  border-radius: 10px;
+  background-color: #111;
+}
+</style>
+
+<div class="main">
+	<h1 class="main">Wombat Never Die</h1>
+	
+	<div class="navbar">
+		<ul>
+			<li><a href="Accueil.html">Accueil</a></li>
+
+			<li><a href="Presentation.html">Presentation</a></li>
+
+			<li><a href="Physique.html">Physique</a></li>
+
+			<li><a href="Chimie.html">Chimie</a></li>
+
+			<li><a href="TP.html">TP</a></li>
+
+			<li><a href="IC.html">IC</a></li>
+
+			<li><a href="Devoirs.html">Devoirs</a></li>
+
+			<li><a href="Colles.html">Colles</a></li>
+
+			<li><a href="TIPE.html">TIPE</a></li>
+		</ul>
+	</div>
+	
+</div>
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 10px; margin-left: auto; margin-right: auto; margin-top: 10px; overflow: hidden; position: relative; word-wrap: break-word;  background: rgb(255, 255, 255); text-align: left; width: 700px; " id="body_content">
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 20px; margin-top: 0px; opacity: 1.00; position: relative; width: 660px; z-index: 1; ">
+    
+            <div id="widget0-navbar" class="navbar">
+
+      
+              <div id="widget0-bg" class="navbar-bg">
+
+        
+                <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                
+      
+</div>
+              
+    
+</div>
+          </div>
+          <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: 'Helvetica Neue', Arial, sans-serif;\n\tfont-size: .8em;\n\tcolor: #666666;\n\tline-height: 30px;\n\tborder-bottom: 3px solid #ccc;\n}\n\n.navbar-bg {\n\ttext-align: right;}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 5px 0px 0px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tpadding: 10px;\n\tcolor: #666666;\n\tfont-weight: bold;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tpadding: 10px;\n\tcolor: #666666;\n\tfont-weight: bold;\n}\n\nli a:hover\r{\r\n \tcolor: #999999;\n\ttext-decoration: none;\r}\n\n\nli.current-page a\r{\r\t color: #66ABC5;\n\ttext-decoration: none;\r}\n", "current-page-GUID": "EEF84E46-0F31-46AB-845A-BE9EEA1641FC", "isCollectionPage": "NO"});
+//--><!]]></script>
+          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="height: 107px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id1" style="height: 87px; left: 20px; position: absolute; top: 20px; width: 659px; z-index: 1; " class="style_SkipStroke shape-with-text">
+            <div class="text-content Normal_External_659_87" style="padding: 0px; ">
+              <div class="Normal">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Header">Chapitre 13 - Moment cinétique et forces centrales newtoniennes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id2" style="height: 20px; left: 20px; position: absolute; top: 12px; width: 330px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content Normal_External_330_20" style="padding: 0px; ">
+              <div class="Normal">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Documents de  cours</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id3" style="height: 204px; left: 33px; position: absolute; top: 32px; width: 645px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_645_204" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <ol>
+                  <li style="line-height: 14px; padding-left: 10px; text-indent: -10px; " class="full-width">
+                    <p style="padding-top: 0pt; text-indent: -10px; " class="paragraph_style_1"><span style="font-family: 'ZapfDingbatsITC', 'Zapf Dingbats'; font-size: 10px; font-stretch: normal; font-style: normal; font-weight: 400; position: relative; top: -2px; " class="Puce">★</span><span style="width: 2px; " class="inline-block"></span>Polycopié de cours:<br />            <a title="Chap-P13a_files/Chap-13-MomentCinetique-ForcesCentrales.pdf" href="Chap-P13a_files/Chap-13-MomentCinetique-ForcesCentrales.pdf" class="style">Chap-13-MomentCinetique-ForcesCentrales.pdf</a><br />            <a title="Chap-P13a_files/MomentCinetique-ForcesCentrales.pdf" href="Chap-P13a_files/MomentCinetique-ForcesCentrales.pdf" class="style">MomentCinetique-ForcesCentrales.pdf</a><br /><br /></p>
+                  </li>
+                  <li style="line-height: 14px; padding-left: 10px; text-indent: -10px; " class="full-width">
+                    <p style="text-indent: -10px; " class="paragraph_style_1"><span style="font-family: 'ZapfDingbatsITC', 'Zapf Dingbats'; font-size: 10px; font-stretch: normal; font-style: normal; font-weight: 400; position: relative; top: -2px; " class="Puce">★</span><span style="width: 2px; " class="inline-block"></span>Sessions en direct:<br />            <a title="Chap-P13a_files/Cours-Mecanique1.mp4" href="Chap-P13a_files/Cours-Mecanique1.mp4" class="style">Cours-Mecanique1.mp4</a><br />            <a title="Chap-P13a_files/Cours-Mecanique-2.mp4" href="Chap-P13a_files/Cours-Mecanique-2.mp4" class="style">Cours-Mecanique-2.mp4</a><br />            <a title="Chap-P13a_files/Cours-Mecanique3.mp4" href="Chap-P13a_files/Cours-Mecanique3.mp4" class="style">Cours-Mecanique-3.mp4</a><br />            <a title="Chap-P13a_files/Cours-Mecanique-4.mp4" href="Chap-P13a_files/Cours-Mecanique-4.mp4" class="style">Cours-Mecanique-4.mp4</a><br /><br /><br /></p>
+                  </li>
+                  <li style="line-height: 14px; padding-left: 10px; text-indent: -10px; " class="full-width">
+                    <p style="padding-bottom: 0pt; text-indent: -10px; " class="paragraph_style_1"><span style="font-family: 'ZapfDingbatsITC', 'Zapf Dingbats'; font-size: 10px; font-stretch: normal; font-style: normal; font-weight: 400; position: relative; top: -2px; " class="Puce">★</span><span style="width: 2px; " class="inline-block"></span>Fiches de cours:<br />            <a title="Chap-P13a_files/Fiche-21-MomentCinetique.pdf" href="Chap-P13a_files/Fiche-21-MomentCinetique.pdf" class="style">Fiche-21-MomentCinetique.pdf</a><br />            <a title="Chap-P13a_files/Fiche-22-ChampNewtonien.pdf" href="Chap-P13a_files/Fiche-22-ChampNewtonien.pdf" class="style">Fiche-22-ChampNewtonien.pdf</a></p>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id4" style="height: 92px; left: 34px; position: absolute; top: 272px; width: 646px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_646_92" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <ol>
+                  <li style="line-height: 14px; padding-left: 10px; text-indent: -10px; " class="full-width">
+                    <p style="padding-top: 0pt; text-indent: -10px; " class="paragraph_style_2"><span style="color: rgb(81, 81, 81); font-family: 'ZapfDingbatsITC', 'Zapf Dingbats'; font-size: 10px; font-stretch: normal; font-style: normal; font-weight: 400; opacity: 1.00; position: relative; top: -2px; " class="Puce">★</span><span style="width: 2px; " class="inline-block"></span><span class="style_1">TD n°16 - Moment cinétique et forces centrales:<br />            </span><a title="Chap-P13a_files/TD-16.pdf" href="Chap-P13a_files/TD-16.pdf">TD-16.pdf</a><br /><br /></p>
+                  </li>
+                  <li style="line-height: 14px; padding-left: 10px; text-indent: -10px; " class="full-width">
+                    <p style="padding-bottom: 0pt; text-indent: -10px; " class="paragraph_style_3"><span style="color: rgb(81, 81, 81); font-family: 'ZapfDingbatsITC', 'Zapf Dingbats'; font-size: 10px; font-stretch: normal; font-style: normal; font-weight: 400; opacity: 1.00; position: relative; top: -2px; " class="Puce">★</span><span style="width: 2px; " class="inline-block"></span>Vidéos de correction de TD:<br />            <a title="Chap-P13a_files/TD-MomentCinetique-1.MP4" href="Chap-P13a_files/TD-MomentCinetique-1.MP4" class="style">TD-MomentCinetique-1.MP4</a><span class="style"><br />            </span><a title="Chap-P13a_files/TD-MomentCinetique-2.MP4" href="Chap-P13a_files/TD-MomentCinetique-2.MP4" class="style">TD-MomentCinetique-2.MP4</a></p>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id5" style="height: 20px; left: 20px; position: absolute; top: 249px; width: 330px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content Normal_External_330_20" style="padding: 0px; ">
+              <div class="Normal">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Travaux dirigés</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 1px; width: 660px;  height: 1px; left: 20px; position: absolute; top: 232px; width: 660px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 660px; ">
+              <img src="Chap-P13a_files/shapeimage_1.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 660px; " />
+            </div>
+          </div>
+          <div style="height: 480px; line-height: 480px; " class="spacer"> </div>
+        </div>
+        <div style="height: 75px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+<!-- Mirrored from www.tiwombat.com/CPGE/Chap-P13a.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Sep 2021 00:13:02 GMT -->
+</html>
+
+

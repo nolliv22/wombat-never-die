@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+  
+<!-- Mirrored from www.tiwombat.com/CPGE/Chap-P8a.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Sep 2021 00:06:39 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Generator" content="iWeb 3.0.4" />
+    <meta name="iWeb-Build" content="local-build-20210123" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>Chapitre 8 - Filtrage linéaire</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="Chap-P8a_files/Chap-P8a.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Chap-P8a_files/Chap-P8aIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="Chap-P8a_files/Chap-P8a.js"></script>
+  </head>
+  <body style="background: rgb(101, 101, 101); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+<style>
+.main {
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+}
+
+.navbar ul,li { 
+  list-style-type: none;
+  list-style-position:inside;
+  margin:0;
+  padding:0;
+}
+
+.navbar{
+  display: inline-block;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: gray;
+  border-radius: 10px;
+  list-style-position: inside;
+  text-align: center;
+}
+
+.navbar li{
+  float: left;
+  display:inline;
+}
+
+.navbar li a {
+  display:inline-block;
+  color: white;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+  
+}
+
+.navbar li a:hover {
+  border-radius: 10px;
+  background-color: #111;
+}
+</style>
+
+<div class="main">
+	<h1 class="main">Wombat Never Die</h1>
+	
+	<div class="navbar">
+		<ul>
+			<li><a href="Accueil.html">Accueil</a></li>
+
+			<li><a href="Presentation.html">Presentation</a></li>
+
+			<li><a href="Physique.html">Physique</a></li>
+
+			<li><a href="Chimie.html">Chimie</a></li>
+
+			<li><a href="TP.html">TP</a></li>
+
+			<li><a href="IC.html">IC</a></li>
+
+			<li><a href="Devoirs.html">Devoirs</a></li>
+
+			<li><a href="Colles.html">Colles</a></li>
+
+			<li><a href="TIPE.html">TIPE</a></li>
+		</ul>
+	</div>
+	
+</div>
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 10px; margin-left: auto; margin-right: auto; margin-top: 10px; overflow: hidden; position: relative; word-wrap: break-word;  background: rgb(255, 255, 255); text-align: left; width: 700px; " id="body_content">
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 20px; margin-top: 0px; opacity: 1.00; position: relative; width: 660px; z-index: 1; ">
+    
+            <div id="widget0-navbar" class="navbar">
+
+      
+              <div id="widget0-bg" class="navbar-bg">
+
+        
+                <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                
+      
+</div>
+              
+    
+</div>
+          </div>
+          <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: 'Helvetica Neue', Arial, sans-serif;\n\tfont-size: .8em;\n\tcolor: #666666;\n\tline-height: 30px;\n\tborder-bottom: 3px solid #ccc;\n}\n\n.navbar-bg {\n\ttext-align: right;}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 5px 0px 0px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tpadding: 10px;\n\tcolor: #666666;\n\tfont-weight: bold;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tpadding: 10px;\n\tcolor: #666666;\n\tfont-weight: bold;\n}\n\nli a:hover\r{\r\n \tcolor: #999999;\n\ttext-decoration: none;\r}\n\n\nli.current-page a\r{\r\t color: #66ABC5;\n\ttext-decoration: none;\r}\n", "current-page-GUID": "60E03D77-D462-40F3-88A0-8BDFE258DEC0", "isCollectionPage": "NO"});
+//--><!]]></script>
+          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="height: 75px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id1" style="height: 43px; left: 20px; position: absolute; top: 20px; width: 659px; z-index: 1; " class="style_SkipStroke shape-with-text">
+            <div class="text-content Normal_External_659_43" style="padding: 0px; ">
+              <div class="Normal">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="Header">Chapitre 8 - Filtrage linéaire</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id2" style="height: 20px; left: 20px; position: absolute; top: 12px; width: 330px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content Normal_External_330_20" style="padding: 0px; ">
+              <div class="Normal">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Documents de  cours</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id3" style="height: 106px; left: 33px; position: absolute; top: 32px; width: 645px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_645_106" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <ol>
+                  <li style="line-height: 14px; padding-left: 10px; text-indent: -10px; " class="full-width">
+                    <p style="padding-top: 0pt; text-indent: -10px; " class="paragraph_style_1"><span style="font-family: 'ZapfDingbatsITC', 'Zapf Dingbats'; font-size: 10px; font-stretch: normal; font-style: normal; font-weight: 400; position: relative; top: -2px; " class="Puce">★</span><span style="width: 2px; " class="inline-block"></span>Filtrage:<br />            <a title="Chap-P8a_files/Chap-8-FiltrageLineaire.pdf" href="Chap-P8a_files/Chap-8-FiltrageLineaire.pdf" class="style">Chap-8-FiltrageLineaire.pdf</a><span class="style_1"><br />            </span><a title="Chap-P8a_files/Bode.pdf" href="Chap-P8a_files/Bode.pdf" class="style_2">Bode.pdf</a><br />            <a title="Chap-P8a_files/Guide_installation_filtre_ADSL.pdf" href="Chap-P8a_files/Guide_installation_filtre_ADSL.pdf" class="style">Guide_installation_filtre_ADSL.pdf</a><br /><br /></p>
+                  </li>
+                  <li style="line-height: 14px; padding-left: 10px; text-indent: -10px; " class="full-width">
+                    <p style="padding-bottom: 0pt; text-indent: -10px; " class="paragraph_style_1"><span style="font-family: 'ZapfDingbatsITC', 'Zapf Dingbats'; font-size: 10px; font-stretch: normal; font-style: normal; font-weight: 400; position: relative; top: -2px; " class="Puce">★</span><span style="width: 2px; " class="inline-block"></span>Fiche d’autoévaluation:<br />            <a title="Chap-P8a_files/Fiche-14-Filtrage.pdf" href="Chap-P8a_files/Fiche-14-Filtrage.pdf" class="style">Fiche-14-Filtrage.pdf</a></p>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id4" style="height: 372px; left: 34px; position: absolute; top: 199px; width: 646px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_646_372" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <ol>
+                  <li style="line-height: 14px; padding-left: 10px; text-indent: -10px; " class="full-width">
+                    <p style="padding-top: 0pt; text-indent: -10px; " class="paragraph_style_2"><span style="color: rgb(81, 81, 81); font-family: 'ZapfDingbatsITC', 'Zapf Dingbats'; font-size: 10px; font-stretch: normal; font-style: normal; font-weight: 400; opacity: 1.00; position: relative; top: -2px; " class="Puce">★</span><span style="width: 2px; " class="inline-block"></span><span class="style_3">TD n°11 - Filtrage linéaire:<br />            </span><a title="Chap-P8a_files/TD-11.pdf" href="Chap-P8a_files/TD-11.pdf">TD-11.pdf</a><br /><br /></p>
+                  </li>
+                  <li style="line-height: 14px; padding-left: 10px; text-indent: -10px; " class="full-width">
+                    <p style="text-indent: -10px; " class="paragraph_style_2"><span style="color: rgb(81, 81, 81); font-family: 'ZapfDingbatsITC', 'Zapf Dingbats'; font-size: 10px; font-stretch: normal; font-style: normal; font-weight: 400; opacity: 1.00; position: relative; top: -2px; " class="Puce">★</span><span style="width: 2px; " class="inline-block"></span><span class="style_3">Exemples de diagrammes de Bode en amplitude (à partir d’un script Python):<br />            </span><a title="Chap-P8a_files/doublesinusPB1.pdf" href="Chap-P8a_files/doublesinusPB1.pdf">doublesinusPB1.pdf</a><br />            <a title="Chap-P8a_files/doublesinusPH1.pdf" href="Chap-P8a_files/doublesinusPH1.pdf">doublesinusPH1.pdf</a><br />            <a title="Chap-P8a_files/doublesinusPH2.pdf" href="Chap-P8a_files/doublesinusPH2.pdf">doublesinusPH2.pdf</a><br />            <a title="Chap-P8a_files/doublesinusPBande2.pdf" href="Chap-P8a_files/doublesinusPBande2.pdf">doublesinusPBande2.pdf</a><br />            <a title="Chap-P8a_files/trianglePB1.pdf" href="Chap-P8a_files/trianglePB1.pdf">trianglePB1.pdf</a><br />            <a title="Chap-P8a_files/trianglePH1.pdf" href="Chap-P8a_files/trianglePH1.pdf">trianglePH1.pdf</a><br />            <a title="Chap-P8a_files/creneauPB1.pdf" href="Chap-P8a_files/creneauPB1.pdf">creneauPB1.pdf</a><br />            <a title="Chap-P8a_files/creneauPB1_1.pdf" href="Chap-P8a_files/creneauPB1_1.pdf">creneauPH2.pdf</a><br /><br /></p>
+                  </li>
+                  <li style="line-height: 14px; padding-left: 10px; text-indent: -10px; " class="full-width">
+                    <p style="text-indent: -10px; " class="paragraph_style_2"><span style="color: rgb(81, 81, 81); font-family: 'ZapfDingbatsITC', 'Zapf Dingbats'; font-size: 10px; font-stretch: normal; font-style: normal; font-weight: 400; opacity: 1.00; position: relative; top: -2px; " class="Puce">★</span><span style="width: 2px; " class="inline-block"></span><span class="style_3"> Courbes pour l’exercice n°3 du TD:<br />            </span><a title="Chap-P8a_files/Creneau-1kHz.pdf" href="Chap-P8a_files/Creneau-1kHz.pdf">Creneau-1kHz.pdf</a><br />            <a title="Chap-P8a_files/Creneau-75Hz.pdf" href="Chap-P8a_files/Creneau-75Hz.pdf">Creneau-75Hz.pdf</a><br /><br /><br /></p>
+                  </li>
+                  <li style="line-height: 14px; padding-left: 10px; text-indent: -10px; " class="full-width">
+                    <p style="text-indent: -10px; " class="paragraph_style_3"><span style="color: rgb(81, 81, 81); font-family: 'ZapfDingbatsITC', 'Zapf Dingbats'; font-size: 10px; font-stretch: normal; font-style: normal; font-weight: 400; opacity: 1.00; position: relative; top: -2px; " class="Puce">★</span><span style="width: 2px; " class="inline-block"></span>AD - filtrage linéaire:<br />            <a title="Chap-P8a_files/AD-Accelerometre.pdf" href="Chap-P8a_files/AD-Accelerometre.pdf" class="style">AD-Accelerometre.pdf</a><br />            <a title="Chap-P8a_files/ADXL001.pdf" href="Chap-P8a_files/ADXL001.pdf" class="style">ADXL001.pdf</a><br />            <a title="Chap-P8a_files/article_bup_mems.pdf" href="Chap-P8a_files/article_bup_mems.pdf" class="style">article_bup_mems.pdf</a><br />            <a title="Chap-P8a_files/CN0303.pdf" href="Chap-P8a_files/CN0303.pdf" class="style">CN0303.pdf</a><br /><br /></p>
+                  </li>
+                  <li style="line-height: 14px; padding-left: 10px; text-indent: -10px; " class="full-width">
+                    <p style="padding-bottom: 0pt; text-indent: -10px; " class="paragraph_style_3"><span style="color: rgb(81, 81, 81); font-family: 'ZapfDingbatsITC', 'Zapf Dingbats'; font-size: 10px; font-stretch: normal; font-style: normal; font-weight: 400; opacity: 1.00; position: relative; top: -2px; " class="Puce">★</span><span style="width: 2px; " class="inline-block"></span>Script Python pour filtrage:<br />            <a title="Chap-P8a_files/Filtrage.py" href="Chap-P8a_files/Filtrage.py" class="style">Filtrage.py</a></p>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div id="id5" style="height: 20px; left: 20px; position: absolute; top: 179px; width: 330px; z-index: 1; " class="style_SkipStroke_1 shape-with-text">
+            <div class="text-content Normal_External_330_20" style="padding: 0px; ">
+              <div class="Normal">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Travaux dirigés</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 1px; width: 660px;  height: 1px; left: 20px; position: absolute; top: 159px; width: 660px; z-index: 1; " class="tinyText">
+            <div style="position: relative; width: 660px; ">
+              <img src="Chap-P8a_files/shapeimage_1.jpg" alt="" style="height: 1px; left: 0px; position: absolute; top: 0px; width: 660px; " />
+            </div>
+          </div>
+          <div style="height: 571px; line-height: 571px; " class="spacer"> </div>
+        </div>
+        <div style="height: 75px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+<!-- Mirrored from www.tiwombat.com/CPGE/Chap-P8a.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Sep 2021 00:08:58 GMT -->
+</html>
+
+
